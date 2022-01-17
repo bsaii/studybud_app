@@ -133,23 +133,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# STATIC_URL = 'static/'
-# # STATIC_ROOT = BASE_DIR / 'static'
+STATIC_URL = 'static/'
+MEDIA_URL = 'images/'
 
-# STATICFILES_DIRS = [
-#     BASE_DIR / "static",
-# ]
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 
 # # Where uploaded images are to be saved
 MEDIA_ROOT = BASE_DIR / 'static/images'
 
-
-# The absolute path to the directory where collectstatic will collect static files for deployment.
-STATIC_ROOT = BASE_DIR / 'static/'
-
-# The URL to use when referring to static files (where they will be served from)
-STATIC_URL = '/static/'
-MEDIA_URL = 'images/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
