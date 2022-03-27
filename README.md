@@ -1,5 +1,7 @@
 # studybud_app
 This app was built on the idea of discord where a user can create a room for converstions and have other users join.
+
+
 **❕❕❕ superuser logins are in `.env.example`**
 
 ### How to run the app locally.
